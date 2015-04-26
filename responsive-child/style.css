@@ -16,8 +16,21 @@
 /* =Theme customization starts here
 ------------------------------------------------------- */
 
+#logo a img {
+  width: 260px;
+}
+
+#header {
+  height: 200px;
+  background: url("http://uncfasp.org/wp-content/uploads/2015/04/img_FaSP_banner.jpg");
+}
+
 #menu-header-menu {
   display: table;
   margin: 0 auto;
   background: gray;
+}
+
+.breadcrumb-list {
+  display: none;
 }
